@@ -1,7 +1,65 @@
 .BigFont{
     color: black;
     font-size: 22px;
+    text-decoration: none;
+    text-decoration: underline line-through overline underline;
     background-color: blue;
+    text-transform: lowercase
+                    capitalize
+                    uppercase
+                    unset
+                    inherit
+                    initial;
+    text-indent: 20px;
+    word-spacing: 2em;
+    letter-spacing: 10px;
+    white-space: normal nowrap;
+    font-style: initial
+                normal 
+                oblique
+                italic
+                inherit
+                unset;
+    font-weight: 600;
+    font-variant: small-caps;
+
+    background-color: aliceblue;
+    background-image: url("lo.img");
+    background-repeat: no-repeat
+                        repeat
+                        repeat-x;
+    background-position: center;
+    background-position: 50% 50%
+                        left top;
+    background-attachment: fixed
+                            inherit
+                            initial
+                            local
+                            scroll;
+
+    border-style: dashed;
+    border-style: 1234;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+    border-right-style: dashed;
+    border-top-style: dashed
+                    dotted
+                    double
+                    groove
+                    hidden
+                    inherit
+                    initial
+                    inset
+                    none
+                    outset
+                    ridge
+                    solid
+                    unset;
+    border-width: 2px;
+    border-width: 1234;
+    border-top-width: 2px;
+    border-color: black;
+
 }
 
 #SmalOne{
